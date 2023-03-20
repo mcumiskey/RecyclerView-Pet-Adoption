@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Pet_List_Card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:forceHasOverlappingRendering="false"
+    android:padding="10dp">
+
+
+    <View
+        android:id="@+id/List_Background"
+        android:layout_width="254dp"
+        android:layout_height="97dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/pink_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Pet_Icon_Container"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/Pet_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Other Information"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/List_Background"
+        app:layout_constraintTop_toBottomOf="@+id/Pet_Name" />
+
+    <CheckBox
+        android:id="@+id/Pet_Like_Button"
+        android:layout_width="58dp"
+        android:layout_height="57dp"
+        android:button="@drawable/heart_fill"
+        app:layout_constraintEnd_toEndOf="@+id/List_Background"
+        app:layout_constraintTop_toTopOf="@+id/List_Background" />
+
+    <TextView
+        android:id="@+id/Pet_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/List_Background"
+        app:layout_constraintTop_toTopOf="@+id/List_Background" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Pet_Icon_Container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Pet_Icon_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Pet Rescue</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="photo_ids">
+        <item name="a">R.drawable.a</item>
+        <item name="b">R.drawable.b</item>
+        <item name="c">R.drawable.c</item>
+        <item name="d">R.drawable.d</item>
+        <item name="e">R.drawable.e</item>
+        <item name="f">R.drawable.f</item>
+        <item name="g">R.drawable.g</item>
+        <item name="h">R.drawable.h</item>
+        <item name="i">R.drawable.i</item>
+        <item name="j">R.drawable.j</item>
+        <item name="k">R.drawable.k</item>
+        <item name="d">R.drawable.l</item>
+    </string-array>
+
+    <string-array name="pet_names">
+        <item>Lucky</item>
+        <item>Maxwell</item>
+        <item>Daisy</item>
+        <item>Cooper</item>
+        <item>Toast</item>
+        <item>Michael Angelo</item>
+        <item>Wampus</item>
+        <item>Pewter</item>
+        <item>Fig</item>
+        <item>Lincoln</item>
+        <item>Samsung</item>
+        <item>Apple</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="search_display">Search</string>
+    <string name="lookingFor_display">I\'m looking for:</string>
+    <string name="cats_display">Cats</string>
+    <string name="dogs_display">Dogs</string>
+    <string name="both_display">Both</string>
+
+    <string name="petName_display">Name</string>
+    <string name="petAge_display">Age</string>
+    <string name="petDistance_display">Distance</string>
+
+    <string name="ASPCALink_display">Here\'s a link to the ASPCA website, which give advice on taking care of your pet: https://www.aspca.org/pet-care</string>
+    <string name="BackButton">Back</string>
+</resources>
